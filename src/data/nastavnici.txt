@@ -1,0 +1,5 @@
+1|Petar|Jovanovic|nastavnik1|1234|true|nesto@nesto.com|DOCENT
+4|Igor|Igoric|igor123|1234|true|igot@igor.com|REDOVAN_PROFESOR
+5|Zarko|Zrenjanin|zarko123|123|false|zarkozarko|DOCENT
+6|Marko|Markovic|marko|123|false|marko@marko|REDOVAN_PROFESOR
+7|Stefan|Stefanovic|stefan|123|true|stefan@stefan|SARADNIK

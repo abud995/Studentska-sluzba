@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#newStudent" prefHeight="35.0" prefWidth="450.0" text="Dodaj novog studenta">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#newProfessor" prefHeight="35.0" prefWidth="413.0" text="Dodaj novog nastavnika" />
+            <Button mnemonicParsing="false" onAction="#newAdmin" prefHeight="35.0" prefWidth="489.0" text="Dodaj novog administratora" />
+            <Button mnemonicParsing="false" onAction="#obrisiStudent" prefHeight="35.0" prefWidth="491.0" text="Obrisi studenta" />
+            <Button mnemonicParsing="false" onAction="#obrisiNastavnika" prefHeight="35.0" prefWidth="431.0" text="Obrisi nastavnika" />
+            <Button mnemonicParsing="false" onAction="#promenaStudenta" prefHeight="35.0" prefWidth="464.0" text="Promena podataka studenta" />
+            <Button mnemonicParsing="false" onAction="#promenaNastavnika" prefHeight="35.0" prefWidth="460.0" text="Promena podataka nastavnika" />
+            <Button mnemonicParsing="false" onAction="#newPredmet" prefHeight="35.0" prefWidth="441.0" text="Dodavanje predmeta" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,5 @@
+1|Petar|Petrovic|admin|admin|false
+2|Marko|Markovic|admin2|admin2|true
+5|steva|stevic|steva123|1234|false
+6|ado|adic|ad12|12|false
+7|Admin|Adminovski|admin23|23|false
