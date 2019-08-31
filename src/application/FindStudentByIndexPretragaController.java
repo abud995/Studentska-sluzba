@@ -26,7 +26,7 @@ public class FindStudentByIndexPretragaController {
 	private void find(ActionEvent event) throws IOException{
 		int id = FactoryUtilsFX.checkInputInt(indexStudent.getText().trim());
 		Student s = SearchUtils.findStudentById(id);
-		if (s == null) {
+		if (s == null || s.getObrisan().equals("true")) {
 			text.setText("Ne postoji student s navedenim brojem indeksa.");
 			text.setFill(Color.RED);
 		}

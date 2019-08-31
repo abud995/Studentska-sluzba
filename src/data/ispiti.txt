@@ -1,0 +1,4 @@
+3|3|0|0|01.01.2001.|false|Menadzment|JANUARSKI
+4|3|0|0|01.01.2001.|false|Matematika|JANUARSKI
+5|3|0|0|01.01.2001.|false|Mreze|MAJSKI
+6|4|0|0|01.01.2001.|false|Mreze|JANUARSKI

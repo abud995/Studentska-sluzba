@@ -21,8 +21,6 @@ public class Ispit implements Writable {
 
 
 	
-	
-	
 
 	public Ispit() {
 		super();

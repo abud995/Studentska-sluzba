@@ -21,6 +21,7 @@
             <Button mnemonicParsing="false" onAction="#promenaStudenta" prefHeight="35.0" prefWidth="464.0" text="Promena podataka studenta" />
             <Button mnemonicParsing="false" onAction="#promenaNastavnika" prefHeight="35.0" prefWidth="460.0" text="Promena podataka nastavnika" />
             <Button mnemonicParsing="false" onAction="#newPredmet" prefHeight="35.0" prefWidth="441.0" text="Dodavanje predmeta" />
+            <Button mnemonicParsing="false" onAction="#exit" prefHeight="35.0" prefWidth="441.0" text="Izlazak iz aplikacije" />
          </children>
       </VBox>
    </children>

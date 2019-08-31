@@ -47,6 +47,7 @@ public class Controller {
 		}
 	}
 	
+	
 	@FXML
 	private void showAdminMenu(ActionEvent event) throws IOException{
 		Parent adminMenu = FXMLLoader.load(getClass().getResource("AdminMenu.fxml"));
@@ -190,7 +191,7 @@ public class Controller {
 	
 	@FXML 
 	private void upisOcena(ActionEvent event) throws IOException{
-		Parent p = FXMLLoader.load(getClass().getResource("AdminMenu.fxml"));
+		Parent p = FXMLLoader.load(getClass().getResource("UpisOcena.fxml"));
 		Scene scene = new Scene(p);
 		Stage s = (Stage) ((Node) event.getSource()).getScene().getWindow();
 		s.setScene(scene);
